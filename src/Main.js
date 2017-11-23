@@ -2,7 +2,7 @@ import React from 'react';
 import bqFetch from 'root/utils/bqFetch';
 import {BQ_SELF} from 'root/config/constant';
 import './less/main.less';
-import Background from './images/getPicture.jpg';
+import Background from './images/artboard.png';
 import ResultBlock from './pages/ResultBlock';
 import OperBlock from './pages/OperBlock';
 import { Select,Button,message,Spin,Input } from 'antd';
@@ -917,7 +917,7 @@ export default class Main extends React.Component {
                     </div>
                     <div className='jigouDiv'>
                         <Button className='selectBtn' onClick={this.onSearchClick}>查询</Button>
-                        <Button className='selectBtn' onClick={this.onResetClick} style={{'float':'right'}}>重置</Button>
+                        <Button className='selectBtn' onClick={this.onResetClick} style={{'float':'right','marginRight':'4px'}}>重置</Button>
                     </div>
 
 
